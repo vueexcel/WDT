@@ -1,0 +1,37 @@
+[
+    {
+        "email": "client@gmail.com",
+        "password": "123456",
+        "role": "Client"
+    },
+    {
+        "email": "member@gmail.com",
+        "password": "123456",
+        "role": "Team Member"
+    },
+    {
+        "email": "hr@gmail.com",
+        "password": "123456",
+        "role": "HR"
+    },
+    {
+        "email": "admin@gmail.com",
+        "password": "123456",
+        "role": "Company Admin"
+    },
+    {
+        "email": "exchangeAdmin@gmail.com",
+        "password": "123456",
+        "role": "Exchange Admin"
+    },
+    {
+        "email": "Sadmin@gmail.com",
+        "password": "123456",
+        "role": "Super Admin"
+    },
+    {
+        "email": "skills@gmail.com",
+        "password": "123456",
+        "role": "Skills"
+    }
+]

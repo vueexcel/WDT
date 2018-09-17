@@ -1,0 +1,128 @@
+{
+  "Create New Job": [
+    {
+      "title": "Job Desrciption",
+      "subtitle": ""
+    },
+    {
+      "title": "Skills",
+      "subtitle": ""
+    },
+    {
+        "title": "Job Payment Info",
+        "subtitle": ""
+    },
+    {
+        "title": "Transactional Details",
+        "subtitle": ""
+    },
+    {
+        "title": "Submit Info",
+        "subtitle": ""
+    }
+  ],
+  "Job Postings": [
+    {
+        "title": "Job Title",
+        "subtitle": "$400.00",
+        "button": "New"
+    },
+    {
+        "title": "Job Title",
+        "subtitle": "$400.00",
+        "button": "Active"
+    },
+    {
+        "title": "Job Title",
+        "subtitle": "$400.00",
+        "button": "Open"
+    },
+    {
+        "title": "Job Title",
+        "subtitle": "$400.00",
+        "button": "Saved"
+    },
+    {
+        "title": "Job Title",
+        "subtitle": "$400.00",
+        "button": "Closed"
+    },
+    {
+        "title": "Job Title",
+        "subtitle": "$400.00",
+        "button": "Submitted"
+    }
+  ],
+  "Candidates": [
+    {
+        "title": "Bob Jones",
+        "subtitle": "Web Developer",
+        "button": "New",
+        "rate": "$13/Hr",
+        "availability":"10-20hrs/wk",
+        "country": "Philippines"
+    },
+    {
+        "title": "Candidate",
+        "subtitle": "Job Title",
+        "button": "Active",
+        "rate": "$13/Hr",
+        "availability":"10-20hrs/wk",
+        "country": "Philippines"
+    },
+    {
+        "title": "Candidate",
+        "subtitle": "Job Title",
+        "button": "Offer Job",
+        "rate": "$13/Hr",
+        "availability":"10-20hrs/wk",
+        "country": "Philippines"
+    },
+    {
+        "title": "Candidate",
+        "subtitle": "Job Title",
+        "button": "Hold",
+        "rate": "$13/Hr",
+        "availability":"10-20hrs/wk",
+        "country": "Philippines"
+    },
+    {
+        "title": "Candidate",
+        "subtitle": "Job Title",
+        "button": "Closed",
+        "rate": "$13/Hr",
+        "availability":"10-20hrs/wk",
+        "country": "Philippines"
+    }
+  ],
+  "Your Info": [
+    {
+        "title": "Your Info",
+        "subtitle": ""
+    },
+    {
+        "title": "Pictures",
+        "subtitle": ""
+    },
+    {
+        "title": "Skills",
+        "subtitle": ""
+    },
+    {
+        "title": "Portfolio",
+        "subtitle": ""
+    },
+    {
+        "title": "Social",
+        "subtitle": ""
+    },
+    {
+        "title": "Education",
+        "subtitle": ""
+    },
+    {
+        "title": "Video",
+        "subtitle": ""
+    } 
+  ]
+}

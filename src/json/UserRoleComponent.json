@@ -1,0 +1,727 @@
+{
+  "Client": [
+    {
+      "title": "Post Job",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Create New Job",
+          "pagetitle": "Create New Job",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Job Postings",
+          "pagetitle": "All Job Postings",
+          "prefix": "Client Desk"
+        }
+      ]
+    },
+    {
+      "title": "HIRE",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Job Postings",
+          "pagetitle": "Active Job Postings",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Candidates",
+          "pagetitle": "Candidates",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Interview",
+          "pagetitle": "Interview",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Offers",
+          "pagetitle": "Offers",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "On Boarding",
+          "pagetitle": "On Boarding",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Hired",
+          "pagetitle": "Hired",
+          "prefix": "Client Desk"
+        }
+      ]
+    },
+    {
+      "title": "WORK",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Team Room",
+          "pagetitle": "Team Room",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Organization",
+          "pagetitle": "Organization",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Projects",
+          "pagetitle": "Projects",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Teams Tasks",
+          "pagetitle": "Teams Tasks",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Time-sheet",
+          "pagetitle": "Time-sheet",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "My Team",
+          "pagetitle": "Team",
+          "prefix": "Client Desk"
+        }
+      ]
+    },
+    {
+      "title": "PAY",
+      "icon": "<i class='fa fa-usd' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Invoices",
+          "pagetitle": "Invoices",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Time-Sheets",
+          "pagetitle": "Time-Sheets",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Time Entry",
+          "pagetitle": "Time Entry",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Work Diary",
+          "pagetitle": "Work Diary",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Approvals",
+          "pagetitle": "Approvals",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Payments",
+          "pagetitle": "Payments",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Setup",
+          "pagetitle": "Setup",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Fees",
+          "pagetitle": "Fees",
+          "prefix": "Client Desk"
+        }
+      ]
+    }
+  ],
+  "Team Member": [
+    {
+      "title": "Profile",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Your Info",
+          "pagetitle": "Update Profile",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Experience Rate",
+          "pagetitle": "Experience Rate",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Availability",
+          "pagetitle": "Availability",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Testing",
+          "pagetitle": "Testing",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Fees",
+          "pagetitle": "Fees",
+          "prefix": "Team Desk"
+        }
+      ]
+    },
+    {
+      "title": "Get Hired",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Search Jobs",
+          "pagetitle": "Search Jobs",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "My Jobs",
+          "pagetitle": "My Jobs",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Interviews",
+          "pagetitle": "Interviews",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Short Listed",
+          "pagetitle": "Short Listed",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Offers",
+          "pagetitle": "Offers",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "On Boarding",
+          "pagetitle": "On Boarding",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Hired",
+          "pagetitle": "Hired",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "My Clients",
+          "pagetitle": "My Clients",
+          "prefix": "Team Desk"
+        }
+      ]
+    },
+    {
+      "title": "Work",
+      "icon": "<i class='fa fa-list-ul' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Work Rooms",
+          "pagetitle": "Work Rooms",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Time Tracking",
+          "pagetitle": "Time Tracking",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Time Sheets",
+          "pagetitle": "Time Sheets",
+          "prefix": "Team Desk"
+        }
+      ]
+    },
+    {
+      "title": "Get Paid",
+      "icon": "<i class='fa fa-usd' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Team Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Team Desk"
+        }
+      ]
+    }
+  ],
+  "HR": [
+    {
+      "title": "Job Postings",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "New Jobs",
+          "pagetitle": "New Job Posting",
+          "prefix": "HR Desk"
+        },
+        {
+          "name": "Assigned",
+          "pagetitle": "Assigned Jobs",
+          "prefix": "HR Desk"
+        }
+      ]
+    },
+    {
+      "title": "Promote",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Promote Jobs",
+          "pagetitle": "Promote Jobs",
+          "prefix": "HR Desk"
+        }
+      ]
+    },
+    {
+      "title": "Interview",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Interviews",
+          "pagetitle": "Interviews",
+          "prefix": "HR Desk"
+        }
+      ]
+    },
+    {
+      "title": "Hire",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Customer Input",
+          "pagetitle": "Customer Input",
+          "prefix": "HR Desk"
+        },
+        {
+          "name": "Offer",
+          "pagetitle": "Offer",
+          "prefix": "HR Desk"
+        },
+        {
+          "name": "Decision",
+          "pagetitle": "Decision",
+          "prefix": "HR Desk"
+        },
+        {
+          "name": "Onboarding",
+          "pagetitle": "Onboarding",
+          "prefix": "HR Desk"
+        }
+      ]
+    },
+    {
+      "title": "Customer Service",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Customer Service",
+          "pagetitle": "Service Ticket",
+          "prefix": "Client Desk"
+        },
+        {
+          "name": "Fees",
+          "pagetitle": "Fees",
+          "prefix": "Client Desk"
+        }
+      ]
+    }
+  ],
+  "Company Admin": [
+    {
+      "title": "Set Up",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Company Info",
+          "pagetitle": "Company Info",
+          "prefix": "Company Admin/ Set Up"
+        },
+        {
+          "name": "Information",
+          "pagetitle": "Information",
+          "prefix": "Company Admin/ Set Up"
+        },
+        {
+          "name": "Invoices",
+          "pagetitle": "Invoices",
+          "prefix": "Company Admin/ Set Up"
+        },
+        {
+          "name": "Billing",
+          "pagetitle": "Billing",
+          "prefix": "Company Admin/ Set Up"
+        },
+        {
+          "name": "Fees",
+          "pagetitle": "Fees",
+          "prefix": "Company Admin/ Set Up"
+        }
+      ]
+    },
+    {
+      "title": "Users",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [{
+        "name": "List",
+        "pagetitle": "Users List",
+        "prefix": "Company Admin/ Users"
+      },
+      {
+        "name": "Roles",
+        "pagetitle": "Roles",
+        "prefix": "Company Admin/ Users"
+      }
+    ]
+    },
+    {
+      "title": "Approvals",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Approvals",
+          "pagetitle": "Approvals List",
+          "prefix": "Company Admin/ Approvals"
+        }
+      ]
+    },
+    {
+      "title": "Payments",
+      "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Payments",
+          "pagetitle": "Payments",
+          "prefix": "Company Admin/ Approvals"
+        }
+      ]
+    },
+    {
+      "title": "Reports",
+      "icon": "<i class='fa fa-usd' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Payments",
+          "pagetitle": "Payments",
+          "prefix": "Company Admin/ Approvals"
+        }
+      ]
+    }
+  ],
+  "Exchange Admin": [
+    {
+      "title": "Setup",
+      "icon": "<i class='fa fa-floppy-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Information",
+          "pagetitle": "Information",
+          "prefix": "Exchange Admin"
+        },
+        {
+          "name": "Fees",
+          "pagetitle": "Fees",
+          "prefix": "Exchange Desk"
+        },
+        {
+          "name": "Billing",
+          "pagetitle": "Billing",
+          "prefix": "Exchange Desk"
+        },
+        {
+          "name": "Connections",
+          "pagetitle": "Connections",
+          "prefix": "Exchange Desk"
+        },
+        {
+          "name": "Emails",
+          "pagetitle": "Automated Emails",
+          "prefix": "Exchange Desk"
+        },
+        {
+          "name": "Customers",
+          "pagetitle": "Customers",
+          "prefix": "Exchange Desk"
+        },
+        {
+          "name": "Rate",
+          "pagetitle": "Rate",
+          "prefix": "Exchange Desk"
+        }
+      ]
+    },
+    {
+      "title": "Options",
+      "icon": "<i class='fa fa-floppy-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Hire",
+          "pagetitle": "Hire",
+          "prefix": "Exchange Desk"
+        },
+        {
+          "name": "Work",
+          "pagetitle": "Work",
+          "prefix": "Exchange Desk"
+        },
+        {
+          "name": "Pay",
+          "pagetitle": "Pay",
+          "prefix": "Exchange Desk"
+        }
+      ]
+    }
+  ],
+  "Super Admin": [
+    {
+      "title": "Exchanges",
+      "icon": "<i class='fa fa-link' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Exchanges",
+          "pagetitle": "Exchanges",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "AddExchange",
+          "pagetitle": "AddExchange",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Fees",
+          "pagetitle": "Fees",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Roles",
+          "pagetitle": "Roles",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Rules",
+          "pagetitle": "Rules",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Services",
+          "pagetitle": "Services",
+          "prefix": "Super Admin Desk"
+        }
+      ]
+    },
+    {
+      "title": "Messaging",
+      "icon": "<i class='fa fa-envelope-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Global",
+          "pagetitle": "Global Emails",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Filtered",
+          "pagetitle": "Filtered",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Automated",
+          "pagetitle": "Automated",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Marketing",
+          "pagetitle": "Marketing",
+          "prefix": "Super Admin Desk"
+        }
+      ]
+    },
+    {
+      "title": "Rports",
+      "icon": "<i class='fa fa-envelope-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Super Admin Desk"
+        },
+        {
+          "name": "Link",
+          "pagetitle": "Link",
+          "prefix": "Super Admin Desk"
+        }
+      ]
+    }
+  ],
+  "Skills": [
+    {
+      "title": "Skills",
+      "icon": "<i class='fa fa-envelope-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Skills",
+          "pagetitle": "Skills",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Categories",
+          "pagetitle": "Categories",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Job Titles",
+          "pagetitle": "Job Titles",
+          "prefix": "Skills"
+        }
+      ]
+    },
+    {
+      "title": "Behavioral",
+      "icon": "<i class='fa fa-envelope-o' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Aptitude",
+          "pagetitle": "Aptitude",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Languages",
+          "pagetitle": "Languages",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Traits",
+          "pagetitle": "Traits",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Locations",
+          "pagetitle": "Locations",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Expectations",
+          "pagetitle": "Expectations",
+          "prefix": "Skills"
+        }
+      ]
+    },
+    {
+      "title": "Certifications",
+      "icon": "<i class='fa fa-usd' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Education",
+          "pagetitle": "Education",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Certifications",
+          "pagetitle": "Certifications",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Awards",
+          "pagetitle": "Awards",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Licenses",
+          "pagetitle": "Licenses",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Titles",
+          "pagetitle": "Titles",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Tests",
+          "pagetitle": "Tests",
+          "prefix": "/Skills"
+        }
+      ]
+    },
+    {
+      "title": "Skill AI",
+      "icon": "<i class='fa fa-usd' aria-hidden='true'></i>",
+      "subchild": [
+        {
+          "name": "Success Factors",
+          "pagetitle": "Success Factors",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Relevance",
+          "pagetitle": "Relevance",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Results",
+          "pagetitle": "Results",
+          "prefix": "Skills"
+        },
+        {
+          "name": "Learnings",
+          "pagetitle": "Learnings",
+          "prefix": "Skills"
+        }
+      ]
+    }
+  ]
+}
