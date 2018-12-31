@@ -1,4 +1,7 @@
-import { getField, updateField } from 'vuex-map-fields'
+import {
+  getField,
+  updateField
+} from 'vuex-map-fields'
 import UserData from './../../json/UserData.json'
 export default {
   state: {
@@ -14,10 +17,10 @@ export default {
     getUser: state => state.user
   },
   actions: {
-    loginDetail ({commit}, payload) {
+    loginDetail({commit}, payload) {
       commit('login', payload)
     },
-    dologout ({commit}) {
+    dologout({commit}) {
       commit('logout')
     }
   },
@@ -33,9 +36,7 @@ export default {
           state.user = state.data[i]
         }
       }
-      if (state.role !== '') {
-        console.log(state, '9999999999999999999')
-      } else {
+      if (state.role !== '') {} else {
         state.error = true
         state.errorMessage = 'Invalid email or Password'
       }

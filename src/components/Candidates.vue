@@ -45,17 +45,14 @@
                     </div>
                     <div class="tab-pane p-3" id="profile-1" role="tabpanel">
                         <p class="font-14 mb-0">
-    
                         </p>
                     </div>
                     <div class="tab-pane p-3" id="messages-1" role="tabpanel">
                         <p class="font-14 mb-0">
-    
                         </p>
                     </div>
                     <div class="tab-pane p-3" id="settings-1" role="tabpanel">
                         <p class="font-14 mb-0">
-    
                         </p>
                     </div>
                 </div>

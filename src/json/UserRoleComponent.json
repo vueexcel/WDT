@@ -2,6 +2,8 @@
   "Client": [
     {
       "title": "Post Job",
+      "ExchangeLogo": "./../../static/brand_image/starbucks.png",
+      "color": "#318C74",
       "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
       "subchild": [
         {
@@ -138,6 +140,8 @@
   "Team Member": [
     {
       "title": "Profile",
+      "ExchangeLogo": "./../../static/brand_image/Radiant_Communications_Logo.png",
+      "color": "#6D6C4B",
       "icon": "<i class='fa fa-user-o' aria-hidden='true'></i>",
       "subchild": [
         {
