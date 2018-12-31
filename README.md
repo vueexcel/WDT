@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# WorldDesignTeam
-Master
-=======
-<<<<<<< HEAD
 # wdt
 
 > A Vue.js project
@@ -33,4 +28,4 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
->>>>>>> 1d1dc3a67d56d57a63bdf432111a1988ea22c8a6
+
