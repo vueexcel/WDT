@@ -10,33 +10,33 @@
     "#5B8679"
   ],
   "largeAppMenuItems": [{
-      "app": "",
+      "app": "Post Job",
       "app_url": "https://www.canva.com/color-palette/",
       "desc": "test"
     },
     {
-      "app": "",
+      "app": "Hire",
       "app_url": "https://www.canva.com/color-palette/",
       "desc": "test"
     },
     {
-      "app": "",
+      "app": "Work",
       "app_url": "https://www.canva.com/color-palette/",
       "desc": "test"
     }
   ],
   "smallMenuItems": [{
-      "icon": "",
+      "icon": "pay",
       "icon_url": "https://www.canva.com/color-palette/",
       "desc": "test"
     },
     {
-      "icon": "",
+      "icon": "pay",
       "icon_url": "https://www.canva.com/color-palette/",
       "desc": "test"
     },
     {
-      "icon": "",
+      "icon": "pay",
       "icon_url": "https://www.canva.com/color-palette/",
       "desc": "test"
     }

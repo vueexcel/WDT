@@ -38,11 +38,6 @@
         "icon": "",
         "icon_url": "https://www.canva.com/color-palette/",
         "desc": "test"
-      },
-      {
-        "icon": "",
-        "icon_url": "https://www.canva.com/color-palette/",
-        "desc": "test"
       }
     ]
   },
@@ -50,7 +45,7 @@
     "role": "Team Member",
     "userName": "member@gmail.com",
     "exchangeName": "Radiant",
-    "exchangeLogo": "/static/img/Radiant_Communications_Logo.af7473a.png",
+    "exchangeLogo": "/static/img/Radiant_Communications_Logo.png",
     "themeColors": [
       "#247B14",
       "#1C43AB",
@@ -76,11 +71,6 @@
       }
     ],
     "smallMenuItems": [
-      {
-        "icon": "",
-        "icon_url": "https://www.canva.com/color-palette/",
-        "desc": "test"
-      },
       {
         "icon": "",
         "icon_url": "https://www.canva.com/color-palette/",

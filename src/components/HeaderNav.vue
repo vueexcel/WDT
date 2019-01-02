@@ -4,7 +4,7 @@
       <!-- header Logo  -->
       <div class="logo">
         <a href="#" class="logo">
-          <img :src="this.exchangeLogo" alt="brand_logo" height="50px">
+          <img :src="getbrandData.exchangeLogo" :alt="getbrandData.exchangeName" height="50px">
         </a>
       </div>
       <!-- end of logo -->
@@ -13,37 +13,73 @@
       <!--  -->
       <!-- end of components of role -->
       <div class="clearfix">
-        <div
-          class="box"
-          :key="index"
-          v-for="(color, index) in themeColors"
-          :style="{ backgroundColor: color}"
-        ></div>
+        <div class="boxMain">
+          <!--=============== Large Apps ===============-->
+          <div
+            :class="[{largebox1: isActiveOne}, {largebox2: isActiveSec}]"
+            :key="index"
+            v-for="(largeApp, index) in getbrandData.largeAppMenuItems"
+          >
+            <div class="largeAppCircle">
+              <i
+                style="font-size:13px; margin: 11px 12px;"
+                :class="getbrandData.largeAppMenuItems[index].app_icon"
+              ></i>
+            </div>
+            <div>{{ getbrandData.largeAppMenuItems[index].app }}</div>
+          </div>
+
+          <!--============= small Apps =================-->
+          <div
+            :class="[{smallbox1: isActiveOne}, {smallbox2: isActiveSec}]"
+            :key="getbrandData.largeAppMenuItems.length+index"
+            v-for="(smallApp, index) in getbrandData.smallMenuItems"
+          >
+            <div class="smallAppCircle">
+              <i
+                style="font-size:13px; margin: 0 auto;"
+                :class="getbrandData.smallMenuItems[index].app_icon"
+              ></i>
+            </div>
+            <div>{{ getbrandData.smallMenuItems[index].icon }}</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import brandCommonData_ from "./../json/brandCommonData.json";
-import fake from "./../json/UserData.json";
 import SubHeaderMenu from "./SubHeaderMenu.vue";
-import { mapActions } from "vuex";
+import { mapActions, mapGetters } from "vuex";
 export default {
   name: "HeaderNav",
   props: ["role", "getRoleJsonData", "roleContent"],
   components: {
     SubHeaderMenu
   },
+  computed: {
+    ...mapGetters({
+      getbrandData: "getbrandData"
+    })
+  },
   data() {
     return {
       exchangeLogo: "",
       themeColors: {},
-      brandCommonData: brandCommonData_
+      smallMenuItems: "",
+      largeAppMenuItems: "",
+      isActiveOne: "",
+      isActiveSec: ""
     };
   },
   methods: {
-    ...mapActions(["sendRoleContent", "sendContentInfo", "dologout"]),
+    ...mapActions([
+      "sendRoleContent",
+      "sendContentInfo",
+      "dologout",
+      "fetchJson"
+    ]),
     getContent: function(val) {
       this.sendRoleContent(val);
     },
@@ -51,13 +87,20 @@ export default {
       this.dologout();
       this.$router.push("/");
     },
-    getBrandDataFromJson: function() {
-      for (var i = 0; i < this.brandCommonData.length; i++) {
-        if (this.brandCommonData[i].role === this.$props.role) {
-          this.exchangeLogo = this.brandCommonData[i].exchangeLogo;
-          this.themeColors = this.brandCommonData[i].themeColors;
-        }
+    updateHoverState: function() {
+      if (this.$props.role == "Client") {
+        this.isActiveOne = true;
+        this.isActiveSec = false;
+      } else {
+        this.isActiveOne = false;
+        this.isActiveSec = true;
       }
+    },
+    // API call
+    jsonApi: function() {
+      this.fetchJson({
+        role: this.$props.role
+      });
     }
   },
   mounted() {
@@ -69,18 +112,83 @@ export default {
       prefix: role[0].subchild[0].prefix,
       index: 0
     });
-    this.getBrandDataFromJson();
+    this.jsonApi();
+    this.updateHoverState();
   }
 };
 </script>
 
 <style>
-.box {
-  height: 40px;
-  width: 40px;
+.boxMain {
   float: right;
-  margin: 10px 10px 0 0;
+  width: 70%;
+}
+
+/* ============== Box CSS hover property===== */
+.largebox1 {
+  float: left;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  height: 67px;
+  width: 70px;
+}
+.largebox1:hover {
+  background-color: #057454;
+  color: aliceblue;
+}
+.largebox2 {
+  float: left;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  width: 70px;
+  height: 67px;
+}
+.largebox2:hover {
+  background-color: #247b14;
+  color: aliceblue;
+}
+
+.smallbox1 {
+  float: right;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  width: 60px;
+  height: 67px;
+}
+.smallbox1:hover {
+  background-color: #057454;
+  color: aliceblue;
+}
+.smallbox2 {
+  float: right;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  width: 60px;
+  height: 67px;
+}
+.smallbox2:hover {
+  background-color: #247b14;
+  color: aliceblue;
+}
+/*============== Box CSS hover property ends here ======*/
+
+.largeAppCircle {
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
+  margin: 0 auto;
+  background: lightgrey;
+}
+.smallAppCircle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: lightgrey;
 }
 #header-nav {
   width: 95%;

@@ -2,6 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import axios from 'axios'
+// import VueAxios from 'vue-axios'
 import VueRouter from 'vue-router'
 import StarRating from 'vue-star-rating'
 import BootstrapVue from 'bootstrap-vue'
@@ -18,6 +20,7 @@ import 'font-awesome/css/font-awesome.css'
 import store from './store'
 
 Vue.use(fa)
+Vue.use(axios)
 Vue.use(BootstrapVue)
 Vue.use(VueRouter)
 Vue.component('star-rating', StarRating)
