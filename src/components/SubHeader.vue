@@ -20,7 +20,6 @@ export default {
   methods: {
     ...mapActions(['sendContentInfo']),
     getpage: function (e, index) {
-        console.log(e, '******');
       this.sendContentInfo({
         index: index,
         name: e.name,

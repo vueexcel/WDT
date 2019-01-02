@@ -26,8 +26,8 @@ export default {
   name: 'LoginForm',
   data () {
     return {
-      email: '',
-      password: ''
+      email: 'client@gmail.com',
+      password: '123456'
     }
   },
   watch: {

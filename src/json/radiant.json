@@ -1,0 +1,45 @@
+{
+  "userName": "member@gmail.com",
+  "exchangeName": "Radiant",
+  "exchangeLogo": "./../../static/brand_image/Radiant_Communications_Logo.png",
+  "themeColors": [
+    "#247B14",
+    "#1C43AB",
+    "#F0F1F1",
+    "#0E0E0E",
+    "#6D6C4B"
+  ],
+  "largeAppMenuItems": [{
+      "app": "Post Job",
+      "app_url": "https://www.canva.com/color-palette/",
+      "desc": "test"
+    },
+    {
+      "app": "Hire",
+      "app_url": "https://www.canva.com/color-palette/",
+      "desc": "test"
+    },
+    {
+      "app": "Work",
+      "app_url": "https://www.canva.com/color-palette/",
+      "desc": "test"
+    }
+  ],
+  "smallMenuItems": [{
+      "icon": "pay",
+      "icon_url": "https://www.canva.com/color-palette/",
+      "desc": "test"
+    },
+    {
+      "icon": "pay",
+      "icon_url": "https://www.canva.com/color-palette/",
+      "desc": "test"
+    },
+    {
+      "icon": "pay",
+      "icon_url": "https://www.canva.com/color-palette/",
+      "desc": "test"
+    }
+  ]
+
+}
